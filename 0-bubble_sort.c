@@ -3,6 +3,12 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/**
+ * bubble_sort - Sort an array of integers in
+ * ascending order using
+ * @array: Array to be sorted
+ * @size: Size of the array
+ */
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, j;
@@ -24,7 +30,6 @@ void bubble_sort(int *array, size_t size)
 				print_array(array, size);
 			}
 		}
-		
 		if (swapped == 0)
 			break;
 	}
