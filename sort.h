@@ -29,5 +29,7 @@ int lomuto_partition(int *array, int low, int high, size_t size);
 void quicksort(int *array, int low, int high, size_t size);
 listint_t *create_listint(const int *array, size_t size);
 void shell_sort(int *array, size_t size);
+void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
 
 #endif /* MY_HEADER_H */
